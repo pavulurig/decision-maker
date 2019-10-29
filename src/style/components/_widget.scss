@@ -1,0 +1,22 @@
+.widget{
+    background: $light-blue;
+    margin-bottom: $x-size;
+}
+.widget-color{
+    background: $blue;
+    color: $dark-white;
+    padding: $m-size;
+    display: flex;
+    justify-content: space-between;
+    h3{
+        margin:0;
+    }
+}
+.widget__message{
+    color:$dark-white;
+    margin:0;
+    padding:$l-size;
+    text-align: center;
+    border-bottom: 1px solid darken($color:$light-blue, $amount: 10%);
+
+}
